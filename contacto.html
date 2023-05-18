@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-
         <meta charset="UTF-8">
         <title>CONTACTO-JC-BARBERSHOP</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style-contacto.css">
-
     </head>
     <body>
-         
         <header>
            <div class="caja ">
                 <h1><img src="imagenbar/logo1.png" alt="logo de la barberia1"id = "logo"></h1>
@@ -20,7 +16,6 @@
                         <li><a href="productos.html">Productos</a></li>
                         <li><a href="Contacto.html">Contacto</a></li>
                     </ul>
-
                 </nav>      
             </div>  
         </header>
@@ -28,65 +23,37 @@
             <form>
                 <label for="nombreapellidos" >Nombre y apellido </label>
                 <input type="text" id="nombreapellidos" class="input-padron" required>
-
                 <label for="correoelectronico">Correo Elctronico</label>
                 <input type="email" id="correoelectronico"class="input-padron"required placeholder="email@dominio.com">
-
                 <label for="telefono">Telefono </label>
                 <input type="tel" id="telefono"class="input-padron"required placeholder="(xx) xxx-xxx-xxxx">
-
                 <label for="cajadetexto">Mensaje</label>
                 <textarea cols="70" rows="20" id = "cajadetexto" class="input-padron"></textarea>
-
                 <fieldset>
-
                     <legend> ¿ Como le gustaria que sea contactodo ?  </legend>
-                
-                
                     <label for="radio-email"><input type="radio" name= "contacto" value ="email"id = "radio-email">Email</label>
-                    
                     <label for="telefono"> <input type="radio" name= "contacto" value ="Telefono"id = "radio-Telefono">Telefono</label>
-                   
                     <label for="radio-whatsapp"><input type="radio"name= "contacto" value ="whatsapp"id = "radio-whatsapp" checked>Whatsapp</label>
-                    
                 </fieldset>
-
                 <fieldset>
-
                     <legend>¿ En que horario quiere ser contactodo</legend>
                     <select >
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-
                 </fieldset>
-                
-
-
                 <label class = "checkbox"><input type ="checkbox" checked > ¿Le gustia notificacion de la barberia? </label>
-                
-                
-                
-        
-
-                <input type="submit" value="Enviar formulario" class="enviar">
-                
+                <input type="submit" value="Enviar formulario" class="enviar">   
             </form>
-
             <table>
-
                 <thead>
-
                     <tr>
                         <th>Dia</th>
                         <th>Horario</th>
                     </tr>
-
                 </thead>
-
                 <tbody>
-
                     <tr>
                         <td>Lunes</td>
                         <td>9AM - 8PM</td>
@@ -111,21 +78,12 @@
                         <td>Sabado</td>
                         <td>9AM - 6PM</td>
                     </tr>
-
-
-                </tbody>
-                
-                
+                </tbody>  
             </table>
-
         </main>    
         <footer>
             <img src = "imagenbar/logo.png" alt="logo de la barberia" id="logo2">
             <p>  &copy Copyright JC-BARBERSHOP - 2023</p>
-
-        </footer>
-        
+        </footer> 
     </body>
-
-
 </html>
